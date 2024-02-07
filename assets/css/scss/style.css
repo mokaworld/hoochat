@@ -502,6 +502,9 @@ footer .copyright p:hover {
     background: var(--main-color--);
     color: #fff;
   }
+  .slider {
+    padding-top: 150px;
+  }
   .slider .choice-app {
     width: 90%;
   }
@@ -533,4 +536,8 @@ footer .copyright p:hover {
 }
 .app-screenshot p {
   width: 100%;
+}
+
+footer .footer-menu ul {
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

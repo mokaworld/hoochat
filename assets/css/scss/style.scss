@@ -556,8 +556,10 @@ footer {
     
   }
   .slider{
+    padding-top: 150px;
     .choice-app{
       width: 90%;
+      
     }
     .buttons{
       button:first-child{
@@ -601,3 +603,11 @@ footer {
     width: 100%;
   }
 } 
+
+footer{
+  .footer-menu{
+    ul{
+      flex-direction: column;
+    }
+  }
+}
