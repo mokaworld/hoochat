@@ -455,8 +455,6 @@ footer .copyright p:hover {
 @media (max-width: 767px) {
   .header {
     box-shadow: 0 -0.2rem 2rem 0 rgba(0, 0, 0, 0.5);
-    height: 100px;
-    padding: 10px 0;
   }
   .header .navbar {
     padding: 0;
@@ -491,13 +489,13 @@ footer .copyright p:hover {
     background: var(--main-color--);
     color: #fff;
   }
-  .header .navbar .smart-jackpots .jackpots {
+  .smart-jackpots .jackpots {
     width: 100%;
   }
-  .header .navbar .smart-jackpots .rise {
-    width: 100%;
+  .smart-jackpots .rise {
+    width: 100% !important;
   }
-  .header .navbar .smart-jackpots .rise::before {
+  .smart-jackpots .rise::before {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */

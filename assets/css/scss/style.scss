@@ -497,8 +497,6 @@ footer {
 @media (max-width: 767px) {
   .header {
     box-shadow: 0 -0.2rem 2rem 0 rgba(0, 0, 0, 0.5);
-    height: 100px;
-    padding: 10px 0;
     .navbar {
       padding: 0;
 
@@ -537,17 +535,20 @@ footer {
         }
       }
 
-      .smart-jackpots {
-        .jackpots {
-          width: 100%;
-        }
-        .rise {
-          width: 100%;
 
-          &::before {
-            display: none;
-          }
-        }
+    }
+
+    
+  }
+  .smart-jackpots {
+    .jackpots {
+      width: 100%;
+    }
+    .rise {
+      width: 100%!important;
+
+      &::before {
+        display: none;
       }
     }
   }
