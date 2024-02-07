@@ -1,24 +1,34 @@
 // init owl carousel
 $('.owl-carousel').owlCarousel({
     loop:true,
+    margin:10,
     nav:false,
     autoplay:true,
     autoplayTimeout: 2000,
     autoplaySpeed: 2000,
-    autoplayHoverPause:false,
+    autoplayHoverPause:true,
     lazyLoad:true,
-    margin:10,
     slideTransition: 'linear',
-    autoplayHoverPause: true,
+    responsiveClass:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+            nav:true
         },
         600:{
-            items:3
+            items:3,
+            nav:false
         },
         1000:{
-            items:5
+            items:5,
+            nav:true,
+            loop:false
         }
     }
 })
+
+
+
+
+
+

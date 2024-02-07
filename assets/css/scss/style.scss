@@ -200,7 +200,7 @@ h1 {
 }
 .app-slide {
   img {
-    max-width: 65%;
+    max-width: 100%;
     animation: application 8s linear 1s infinite alternate;
     -webkit-animation: application 8s linear 1s infinite alternate;
   }
@@ -253,6 +253,9 @@ h1 {
 // START APP FEATURES SECTION
 .app-feature {
   padding: 50px 0;
+  .prim-img{
+    max-width: 100%;
+  }
   .right-side {
     h2 {
       font-size: 45px;
@@ -489,3 +492,104 @@ footer {
   }
 }
 // END FOOTER SECTION 
+
+// MEDIA QUERY 
+// Small devices (landscape phones, 576px and up)
+@media (max-width:767px) { 
+  .header {
+    box-shadow: 0 -0.2rem 2rem 0 rgba(0, 0, 0, 0.5);
+    .navbar {
+      padding:0;
+
+      .navbar-brand {
+        font-size: 25px;
+      }
+
+      .navbar-nav {
+        background-color: #09142e;
+        .nav-item {
+          .nav-link {
+            color: #fff;
+            font-size: 1.1rem;
+            text-transform: capitalize;
+            
+            &:hover {
+              color: var(--main-color--);
+            }
+          }
+          .active {
+            color: var(--main-color--);
+          }
+          .dropdown-menu {
+            left: -110px;
+            .dropdown-item {
+              text-align: center;
+              background: #f3f3f3;
+              margin-bottom: 5px;
+              padding: 5px;
+              &:hover {
+                background: var(--main-color--);
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+  
+      .try {
+        a {
+          button {
+            color: #fff;
+            background-color: var(--main-color--);
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin-left: 40px;
+            padding: 15px 35px;
+            border: 2px solid var(--main-color--);
+            border-radius: 100px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover {
+              background-color: #fff;
+              color: var(--main-color--);
+              border-color: var(--main-color--);
+            }
+          }
+        }
+      }
+    }
+  }
+  
+.smart-jackpots {
+  .jackpots {
+    width: 100%;
+  }
+  .rise {
+   width: 100%;
+
+    &::before {
+     display: none;
+    }
+  }
+ 
+
+}
+
+ }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }

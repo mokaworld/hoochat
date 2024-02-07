@@ -191,7 +191,7 @@ h1 {
 }
 
 .app-slide img {
-  max-width: 65%;
+  max-width: 100%;
   animation: application 8s linear 1s infinite alternate;
   -webkit-animation: application 8s linear 1s infinite alternate;
 }
@@ -234,6 +234,9 @@ h1 {
 
 .app-feature {
   padding: 50px 0;
+}
+.app-feature .prim-img {
+  max-width: 100%;
 }
 .app-feature .right-side h2 {
   font-size: 45px;
@@ -447,4 +450,77 @@ footer .copyright p {
 }
 footer .copyright p:hover {
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .header {
+    box-shadow: 0 -0.2rem 2rem 0 rgba(0, 0, 0, 0.5);
+  }
+  .header .navbar {
+    padding: 0;
+  }
+  .header .navbar .navbar-brand {
+    font-size: 25px;
+  }
+  .header .navbar .navbar-nav {
+    background-color: #09142e;
+  }
+  .header .navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+  }
+  .header .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: var(--main-color--);
+  }
+  .header .navbar .navbar-nav .nav-item .active {
+    color: var(--main-color--);
+  }
+  .header .navbar .navbar-nav .nav-item .dropdown-menu {
+    left: -110px;
+  }
+  .header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    text-align: center;
+    background: #f3f3f3;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  .header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background: var(--main-color--);
+    color: #fff;
+  }
+  .header .navbar .try a button {
+    color: #fff;
+    background-color: var(--main-color--);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 40px;
+    padding: 15px 35px;
+    border: 2px solid var(--main-color--);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  .header .navbar .try a button:hover {
+    background-color: #fff;
+    color: var(--main-color--);
+    border-color: var(--main-color--);
+  }
+  .smart-jackpots .jackpots {
+    width: 100%;
+  }
+  .smart-jackpots .rise {
+    width: 100%;
+  }
+  .smart-jackpots .rise::before {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
