@@ -1,5 +1,6 @@
 :root {
   --main-color--: #2563ff;
+  --title-color--: #242f51;
   --paragraphs-color---: #616368;
 }
 
@@ -349,9 +350,33 @@ h1 {
   color: var(--paragraphs-color---);
 }
 
+.app-screenshot {
+  padding: 50px 0;
+}
+.app-screenshot h2 {
+  color: var(--title-color--);
+  font-weight: bold;
+}
+.app-screenshot p {
+  color: var(--paragraphs-color---);
+  width: 53%;
+  margin: auto;
+  line-height: 25px;
+  padding: 20px 0;
+}
+.app-screenshot .owl-theme {
+  padding: 20px 0;
+}
+.app-screenshot .owl-theme img {
+  cursor: pointer;
+}
+.app-screenshot .owl-theme .owl-dots .owl-dot {
+  display: none;
+}
+
 footer {
   background-color: #09142e;
-  padding: 80px 0 50px 0;
+  padding: 80px 0 20px 0;
 }
 footer h5 {
   font-size: 30px;
@@ -368,7 +393,10 @@ footer .footer-menu ul {
   align-items: center;
   gap: 15px;
   text-transform: capitalize;
-  padding: 10px 0;
+  padding: 20px 0;
+}
+footer .footer-menu ul li {
+  font-size: 18px;
 }
 footer .footer-menu ul li a {
   color: #fff;
@@ -388,7 +416,7 @@ footer .social-icon ul {
   align-items: center;
   gap: 20px;
   text-transform: capitalize;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 footer .social-icon ul li i {
   font-size: 35px;
@@ -402,5 +430,19 @@ footer .social-icon ul li a {
   -o-transition: 0.5s;
 }
 footer .social-icon ul li a:hover {
+  color: #fff;
+}
+footer .copyright {
+  padding: 20px 0;
+}
+footer .copyright p {
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+footer .copyright p:hover {
   color: #fff;
 }/*# sourceMappingURL=style.css.map */
