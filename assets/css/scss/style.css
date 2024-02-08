@@ -124,6 +124,7 @@ ul {
 }
 .header .navbar .navbar-nav .nav-item .dropdown-menu {
   left: -110px;
+  text-transform: capitalize;
 }
 .header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
   text-align: center;
