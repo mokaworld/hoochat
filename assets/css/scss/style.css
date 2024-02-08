@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 body::-webkit-scrollbar {
   background-color: #f3f1f1;
   width: 10px;
@@ -25,13 +29,14 @@ ul {
   list-style: none;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
-
 .scroll-top {
   cursor: pointer;
   display: none;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 .scroll-top .fa-circle-chevron-up {
   position: fixed;
@@ -39,13 +44,59 @@ body {
   bottom: 30px;
   color: #1130b5;
   background: #fff;
-  z-index: 99999;
+  z-index: 999;
   font-size: 30px;
   padding: 10px;
   border-radius: 50%;
   box-shadow: 10px 10px 160px 24px var(--main-color--);
 }
 
+.loading-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #09142e;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.loading-page p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.loading-page p span {
+  color: var(--main-color--);
+  animation: loading 2s linear 1s infinite alternate;
+  -webkit-animation: loading 2s linear 1s infinite alternate;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .header {
   box-shadow: 0 -0.2rem 2rem 0 rgba(0, 0, 0, 0.5);
 }

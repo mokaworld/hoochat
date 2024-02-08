@@ -25,7 +25,7 @@ $(".owl-carousel").owlCarousel({
 // START SCROLL TOP
 let scrollTop = document.getElementById("scroll");
 
-scrollTop.addEventListener('click',function(){
+this.addEventListener('click',function(){
   scroll({
     top: 0,
     behavior: "smooth",
@@ -38,7 +38,12 @@ this.addEventListener('scroll', function(){
   } else {
     scrollTop.style.display = "none";
   }
+  
 });
-
-
 // END SCROLL TOP
+
+let loading = document.getElementById("loading");
+
+this.addEventListener('load',function(){
+  loading.style.display = "none";
+})

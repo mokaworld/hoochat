@@ -1,11 +1,15 @@
 * {
   box-sizing: border-box;
 }
-body::-webkit-scrollbar{
+body {
+  font-family: "Poppins", sans-serif;
+ 
+}
+body::-webkit-scrollbar {
   background-color: #f3f1f1;
   width: 10px;
-} 
-body::-webkit-scrollbar-thumb{
+}
+body::-webkit-scrollbar-thumb {
   background-color: var(--main-color--);
 }
 a {
@@ -14,23 +18,73 @@ a {
 ul {
   list-style: none;
 }
-body {
-  font-family: "Poppins", sans-serif;
-}
+
 // SCROLL TOP
 .scroll-top {
   cursor: pointer;
   display: none;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
   .fa-circle-chevron-up {
     position: fixed;
     right: 30px;
     bottom: 30px;
     color: #1130b5;
     background: #fff;
-    z-index: 99999;
+    z-index: 999;
     font-size: 30px;
     padding: 10px;
     border-radius: 50%;
     box-shadow: 10px 10px 160px 24px var(--main-color--);
+  }
+}
+
+.loading-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #09142e;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    span {
+      color: var(--main-color--);
+      animation: loading 2s linear 1s infinite alternate;
+      -webkit-animation: loading 2s linear 1s infinite alternate;
+}
+  }
+}
+
+@keyframes loading {
+  0%{
+    opacity: .1;
+  }
+  25%{
+    opacity: .25;
+  }
+  50%{
+    opacity: .50;
+  }
+  75%{
+    opacity: .75;
+  }
+  100%{
+    opacity: 1;
   }
 }
