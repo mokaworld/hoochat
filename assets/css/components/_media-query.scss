@@ -1,0 +1,231 @@
+
+// MEDIA QUERY
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 767px) {
+    .header {
+      box-shadow: 0 -0.2rem 2rem 0 rgba(0, 0, 0, 0.5);
+      .navbar {
+        padding: 10px 0;
+        height: 100px;
+        .navbar-collapse {
+          padding: 25px 0;
+        }
+        .try {
+          a {
+            button {
+              margin-top: 10px;
+              margin-left: 10px;
+            }
+          }
+        }
+        .navbar-brand {
+          font-size: 25px;
+        }
+  
+        .navbar-nav {
+          background-color: #09142e;
+          height: 525px;
+  
+          .nav-item {
+            padding: 12px 0;
+            .nav-link {
+              color: #fff;
+              font-size: 1.1rem;
+              text-transform: capitalize;
+              padding-left: 20px;
+  
+              &:hover {
+                color: var(--main-color--);
+              }
+            }
+            .active {
+              color: #fff;
+            }
+            .dropdown-menu {
+              left: -110px;
+              .dropdown-item {
+                text-align: center;
+                background: #f3f3f3;
+                margin-bottom: 5px;
+                padding: 5px;
+                &:hover {
+                  background: var(--main-color--);
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .slider {
+      padding-top: 150px;
+      .choice-app {
+        width: 90%;
+      }
+      .buttons {
+        button:first-child {
+          margin-left: 0;
+        }
+        button:last-child {
+          padding: 0;
+        }
+      }
+    }
+  
+    .smart-jackpots {
+      .smartjack-title-1 {
+        margin-bottom: 10px;
+      }
+      .smartjack-title-2 {
+        margin-bottom: 10px;
+      }
+      .smartjack-title-3 {
+        margin-bottom: 10px;
+      }
+  
+      .jackpots {
+        width: 100%;
+      }
+      .rise {
+        width: 100% !important;
+        padding-left: 0;
+  
+        &::before {
+          display: none;
+        }
+      }
+    }
+    .app-screenshot {
+      p {
+        width: 100%;
+      }
+    }
+  
+    footer {
+      .footer-menu {
+        ul {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .header {
+      box-shadow: 0 -0.2rem 2rem 0 rgba(0, 0, 0, 0.5);
+      .navbar {
+        padding: 10px 0;
+        height: 100px;
+        .navbar-collapse {
+          padding: 25px 0;
+        }
+        .try {
+          a {
+            button {
+              margin-top: 10px;
+              margin-left: 10px;
+            }
+          }
+        }
+        .navbar-brand {
+          font-size: 25px;
+        }
+  
+        .navbar-nav {
+          background-color: #09142e;
+          height: 525px;
+  
+          .nav-item {
+            padding: 12px 0;
+            .nav-link {
+              color: #fff;
+              font-size: 1.1rem;
+              text-transform: capitalize;
+              padding-left: 20px;
+  
+              &:hover {
+                color: var(--main-color--);
+              }
+            }
+            .active {
+              color: #fff;
+            }
+            .dropdown-menu {
+              left: -110px;
+              .dropdown-item {
+                text-align: center;
+                background: #f3f3f3;
+                margin-bottom: 5px;
+                padding: 5px;
+                &:hover {
+                  background: var(--main-color--);
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .slider {
+      padding-top: 150px;
+      .choice-app {
+        width: 100%;
+      }
+    }
+  
+    .buttons {
+      button:first-child {
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+    }
+  
+    button:last-child {
+      padding: 0;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .smart-jackpots {
+      .smartjack-title-1 {
+        margin-bottom: 10px;
+      }
+      .smartjack-title-2 {
+        margin-bottom: 10px;
+      }
+      .smartjack-title-3 {
+        margin-bottom: 10px;
+      }
+  
+      .jackpots {
+        width: 100%;
+      }
+      .rise {
+        width: 100% !important;
+        padding-left: 0;
+  
+        &::before {
+          display: none;
+        }
+      }
+    }
+  
+    .app-screenshot {
+      p {
+        width: 100%;
+      }
+    }
+  
+    footer {
+      .footer-menu {
+        ul {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+  

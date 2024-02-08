@@ -12,16 +12,16 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
-
 a {
   text-decoration: none;
 }
 
 ul {
   list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
