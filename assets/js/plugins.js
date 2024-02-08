@@ -22,8 +22,15 @@ $(".owl-carousel").owlCarousel({
   },
 });
 
-// SCROLL TOP
+// START SCROLL TOP
 let scrollTop = document.getElementById("scroll");
+
+scrollTop.addEventListener('click',function(){
+  scroll({
+    top: 0,
+    behavior: "smooth",
+  });
+});
 
 this.addEventListener('scroll', function(){
   if (scrollY >= 400) {
@@ -33,10 +40,5 @@ this.addEventListener('scroll', function(){
   }
 });
 
-scrollTop.addEventListener('click',function(){
-  scroll({
-    top: 0,
-    behavior: "smooth",
-  });
-});
 
+// END SCROLL TOP
