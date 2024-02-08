@@ -131,6 +131,11 @@ ul {
   background: #fff;
   margin-bottom: 5px;
   padding: 5px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 .header .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   background: var(--main-color--);
