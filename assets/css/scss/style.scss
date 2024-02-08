@@ -501,17 +501,17 @@ footer {
     .navbar {
       padding: 10px 0;
       height: 100px;
-      .navbar-collapse{
+      .navbar-collapse {
         padding: 25px 0;
       }
-       .try{
-        a{
-          button{
+      .try {
+        a {
+          button {
             margin-top: 10px;
             margin-left: 10px;
           }
         }
-       }  
+      }
       .navbar-brand {
         font-size: 25px;
       }
@@ -519,7 +519,7 @@ footer {
       .navbar-nav {
         background-color: #09142e;
         height: 525px;
-      
+
         .nav-item {
           padding: 12px 0;
           .nav-link {
@@ -550,90 +550,79 @@ footer {
           }
         }
       }
-
-
     }
-
-    
   }
-  .slider{
+  .slider {
     padding-top: 150px;
-    .choice-app{
+    .choice-app {
       width: 90%;
-      
     }
-    .buttons{
-      button:first-child{
-           margin-left: 0;
+    .buttons {
+      button:first-child {
+        margin-left: 0;
       }
-      button:last-child{
+      button:last-child {
         padding: 0;
-   }
-    } 
-  } 
-  
+      }
+    }
+  }
+
   .smart-jackpots {
-   
-      .smartjack-title-1 {
-        margin-bottom: 10px;
-      }
-      .smartjack-title-2 {
-        margin-bottom: 10px;
-      }
-      .smartjack-title-3{
-        margin-bottom: 10px;
-      }
-    
+    .smartjack-title-1 {
+      margin-bottom: 10px;
+    }
+    .smartjack-title-2 {
+      margin-bottom: 10px;
+    }
+    .smartjack-title-3 {
+      margin-bottom: 10px;
+    }
+
     .jackpots {
       width: 100%;
     }
     .rise {
-      width: 100%!important;
+      width: 100% !important;
       padding-left: 0;
 
       &::before {
         display: none;
       }
     }
-
   }
-  .app-screenshot{
-    p{
+  .app-screenshot {
+    p {
       width: 100%;
     }
-  } 
-  
-  footer{
-    .footer-menu{
-      ul{
+  }
+
+  footer {
+    .footer-menu {
+      ul {
         flex-direction: column;
       }
     }
   }
-  
 }
 
-
-
-
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) {
   .header {
     box-shadow: 0 -0.2rem 2rem 0 rgba(0, 0, 0, 0.5);
     .navbar {
       padding: 10px 0;
       height: 100px;
-      .navbar-collapse{
+      .navbar-collapse {
         padding: 25px 0;
       }
-       .try{
-        a{
-          button{
+      .try {
+        a {
+          button {
             margin-top: 10px;
             margin-left: 10px;
           }
         }
-       }  
+      }
       .navbar-brand {
         font-size: 25px;
       }
@@ -641,7 +630,7 @@ footer {
       .navbar-nav {
         background-color: #09142e;
         height: 525px;
-      
+
         .nav-item {
           padding: 12px 0;
           .nav-link {
@@ -672,76 +661,64 @@ footer {
           }
         }
       }
-
-
     }
-
-    
   }
 
-
-  .slider{
+  .slider {
     padding-top: 150px;
-    .choice-app{
+    .choice-app {
       width: 100%;
-      
     }
   }
 
-  .buttons{
-    button:first-child{
-         margin-left: 0;
-         margin-bottom: 10px;
+  .buttons {
+    button:first-child {
+      margin-left: 0;
+      margin-bottom: 10px;
     }
   }
 
-
-  button:last-child{
+  button:last-child {
     padding: 0;
     margin-left: 0;
     margin-top: 10px;
-}
+  }
 
+  .smart-jackpots {
+    .smartjack-title-1 {
+      margin-bottom: 10px;
+    }
+    .smartjack-title-2 {
+      margin-bottom: 10px;
+    }
+    .smartjack-title-3 {
+      margin-bottom: 10px;
+    }
 
-.smart-jackpots {
-   
-  .smartjack-title-1 {
-    margin-bottom: 10px;
-  }
-  .smartjack-title-2 {
-    margin-bottom: 10px;
-  }
-  .smartjack-title-3{
-    margin-bottom: 10px;
-  }
-  
-  .jackpots {
-    width: 100%;
-  }
-  .rise {
-    width: 100%!important;
-    padding-left: 0;
+    .jackpots {
+      width: 100%;
+    }
+    .rise {
+      width: 100% !important;
+      padding-left: 0;
 
-    &::before {
-      display: none;
+      &::before {
+        display: none;
+      }
     }
   }
 
-}
-
-.app-screenshot{
-  p{
-    width: 100%;
+  .app-screenshot {
+    p {
+      width: 100%;
+    }
   }
-} 
 
-footer{
-  .footer-menu{
-    ul{
-      flex-direction: column;
+  footer {
+    .footer-menu {
+      ul {
+        flex-direction: column;
+      }
     }
   }
 }
-
- }
- 
