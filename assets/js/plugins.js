@@ -1,5 +1,4 @@
-
-
+// owl carowsel init
 $(".owl-carousel").owlCarousel({
   loop: true,
   nav: false,
@@ -22,3 +21,22 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+
+// SCROLL TOP
+let scrollTop = document.getElementById("scroll");
+
+this.addEventListener('scroll', function(){
+  if (scrollY >= 400) {
+    scrollTop.style.display = "block";
+  } else {
+    scrollTop.style.display = "none";
+  }
+});
+
+scrollTop.addEventListener('click',function(){
+  scroll({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
