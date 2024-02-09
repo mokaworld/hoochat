@@ -179,4 +179,23 @@
     }
   }
   // END APP SECREENSHOT SECTION
+.testimonial{
+  img{
+    max-width: 100%;
+  }
+}
+  // SATART DOWNLOAD APP SECTION 
+  .download-app{
+    h2{
+      font-weight: bold;
+      color: var(--title-color--);
+    }
+    p{
+      color: var(--paragraphs-color---);
+    }
+    img{
+      max-width: 100%;
+    }
+  }
+  // END DOWNLOAD APP SECTION 
   
