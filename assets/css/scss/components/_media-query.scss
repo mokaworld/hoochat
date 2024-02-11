@@ -68,6 +68,7 @@
       }
       button:last-child {
         padding: 0;
+        margin-left:0;
       }
     }
   }
@@ -103,6 +104,11 @@
   .testimonial {
     h2 {
       margin-top: 50px;
+    }
+  }
+  .download-app{
+    img{
+      margin-bottom:10px ;
     }
   }
   footer {
@@ -222,6 +228,11 @@
       width: 100%;
     }
   }
+.download-app{
+  img{
+    margin-bottom:10px ;
+  }
+}
 
   footer {
     .footer-menu {
@@ -230,4 +241,21 @@
       }
     }
   }
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .slider{
+    .buttons{
+      button{
+        &:last-child{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+footer{
+  margin-top: 50px;
+}
 }

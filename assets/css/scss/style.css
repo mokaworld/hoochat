@@ -644,6 +644,7 @@ footer .copyright p:hover {
   }
   .slider .buttons button:last-child {
     padding: 0;
+    margin-left: 0;
   }
   .smart-jackpots .smartjack-title-1 {
     margin-bottom: 10px;
@@ -669,6 +670,9 @@ footer .copyright p:hover {
   }
   .testimonial h2 {
     margin-top: 50px;
+  }
+  .download-app img {
+    margin-bottom: 10px;
   }
   footer .footer-menu ul {
     flex-direction: column;
@@ -761,7 +765,18 @@ footer .copyright p:hover {
   .app-screenshot p {
     width: 100%;
   }
+  .download-app img {
+    margin-bottom: 10px;
+  }
   footer .footer-menu ul {
     flex-direction: column;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .slider .buttons button:last-child {
+    margin-left: 0;
+  }
+  footer {
+    margin-top: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
