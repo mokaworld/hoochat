@@ -113,11 +113,14 @@ ul {
 }
 .header .navbar .navbar-nav .nav-item .nav-link {
   color: #242f51;
-  font-size: 1.1rem;
   text-transform: capitalize;
 }
 .header .navbar .navbar-nav .nav-item .nav-link:hover {
   color: var(--main-color--);
+}
+.header .navbar .navbar-nav .nav-item .nav-link img {
+  max-width: 20%;
+  margin: 0 5px;
 }
 .header .navbar .navbar-nav .nav-item .active {
   color: var(--main-color--);

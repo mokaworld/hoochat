@@ -16,10 +16,15 @@
         .nav-item {
           .nav-link {
             color: #242f51;
-            font-size: 1.1rem;
             text-transform: capitalize;
             &:hover {
               color: var(--main-color--);
+            }
+              
+     
+            img{
+              max-width: 20%;
+              margin: 0 5px;
             }
           }
           .active {

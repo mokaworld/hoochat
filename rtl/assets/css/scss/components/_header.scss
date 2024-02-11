@@ -21,6 +21,12 @@
           &:hover {
             color: var(--main-color--);
           }
+         
+            img{
+              max-width: 20%;
+              margin: 0 5px;
+            }
+    
         }
         .active {
           color: var(--main-color--);
@@ -28,7 +34,7 @@
         .dropdown-menu {
           right: -110px;
           text-transform: capitalize;
-        
+
           .dropdown-item {
             img {
               max-width: 20%;
