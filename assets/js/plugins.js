@@ -1,7 +1,7 @@
 // owl carowsel init
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
-    margin:20,
+    margin: 20,
     loop: true,
     nav: false,
     autoplay: true,
@@ -10,7 +10,7 @@ $(document).ready(function () {
     autoplayHoverPause: true,
     lazyLoad: true,
     slideTransition: "linear",
-    responsiveClass: true,
+
     responsive: {
       0: {
         items: 2,
@@ -24,32 +24,6 @@ $(document).ready(function () {
     },
   });
 });
-
-  $("#owl-testi").owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    dots:false,
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
-    navText: [
-      "<i <i class='fa-solid fa-arrow-left'></i>",
-      "<i <i class='fa-solid fa-arrow-right'></i>", 
-    ],
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 1,
-      },
-      1000: {
-        items: 1,
-      },
-    },
-  });
-
 
 // START SCROLL TOP
 let scrollTop = document.getElementById("scroll");

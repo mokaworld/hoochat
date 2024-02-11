@@ -5,7 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 body::-webkit-scrollbar {
-  background-color: #f3f1f1;
+  background-color: #D9D9D6;
   width: 10px;
 }
 body::-webkit-scrollbar-thumb {
@@ -31,7 +31,7 @@ ul {
     position: fixed;
     right: 30px;
     bottom: 30px;
-    color: #1130b5;
+    color: var(--main-color--);
     background: #fff;
     z-index: 999;
     font-size: 30px;
