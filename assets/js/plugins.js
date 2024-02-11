@@ -1,6 +1,7 @@
 // owl carowsel init
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
+    margin:20,
     loop: true,
     nav: false,
     autoplay: true,

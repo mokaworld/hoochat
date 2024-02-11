@@ -458,8 +458,44 @@ h1 {
   display: none;
 }
 
+.testimonial {
+  padding: 50px 0;
+}
 .testimonial img {
   max-width: 100%;
+}
+.testimonial h2 {
+  color: var(--title-color--);
+  font-size: 33px;
+  font-weight: bold;
+}
+.testimonial p {
+  color: var(--paragraphs-color---);
+  padding: 20px 0;
+}
+.testimonial .fa-star {
+  color: #ffcc00;
+  margin-bottom: 25px;
+}
+.testimonial .testi-head {
+  color: var(--title-color--);
+}
+.testimonial .testi-head h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.testimonial .testi-account {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+.testimonial .testi-account img {
+  max-width: 15%;
+}
+.testimonial .testi-account .account-details {
+  margin-left: 20px;
 }
 
 .download-app h2 {
@@ -630,6 +666,9 @@ footer .copyright p:hover {
   }
   .app-screenshot p {
     width: 100%;
+  }
+  .testimonial h2 {
+    margin-top: 50px;
   }
   footer .footer-menu ul {
     flex-direction: column;
