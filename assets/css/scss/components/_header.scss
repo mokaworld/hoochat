@@ -29,6 +29,11 @@
             left: -110px;
             text-transform: capitalize;
             .dropdown-item {
+              img {
+                max-width: 20%;
+                margin-right: 10px;
+              }
+              
               text-align: center;
               background: #fff;
               margin-bottom: 5px;
