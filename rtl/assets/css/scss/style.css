@@ -112,6 +112,9 @@ ul {
 .header .navbar .navbar-brand span {
   color: var(--main-color--);
 }
+.header .navbar .navbar-brand img {
+  max-width: 30%;
+}
 .header .navbar .navbar-nav .nav-item .nav-link {
   color: #242f51;
   font-size: 1.1rem;
@@ -202,6 +205,7 @@ ul {
 }
 .slider .choice-app .fa-regular {
   margin-right: 0;
+  margin-left: 10px;
   background-color: #feaa25;
   padding: 10px;
   font-size: 30px;

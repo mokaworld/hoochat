@@ -111,6 +111,9 @@ ul {
 .header .navbar .navbar-brand span {
   color: var(--main-color--);
 }
+.header .navbar .navbar-brand img {
+  max-width: 30%;
+}
 .header .navbar .navbar-nav .nav-item .nav-link {
   color: #242f51;
   text-transform: capitalize;
